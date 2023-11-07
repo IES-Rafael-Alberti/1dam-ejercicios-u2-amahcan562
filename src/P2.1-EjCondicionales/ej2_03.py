@@ -9,7 +9,7 @@ def main():
     num1 = float(input("Introduzca un número: "))
     num2 = float(input("Introduzca otro: "))
 
-    print(f"El resultado de la división es {resultado}")
+    print(f"El resultado de la división es {división(num1, num2)}")
 
 if __name__ == "__main__":
     main()
