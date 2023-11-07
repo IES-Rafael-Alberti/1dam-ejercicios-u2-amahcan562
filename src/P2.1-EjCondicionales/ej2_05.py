@@ -8,5 +8,6 @@ def main():
     edad = int(input("Introduzca su edad: "))
     ingresos = float(input("Introduzca sus ingresos: "))
     tributar(edad, ingresos)
+    
 if __name__ == "__main__":
     main()
