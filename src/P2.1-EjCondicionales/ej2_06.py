@@ -1,11 +1,15 @@
 def pedirNombre():
     nombre = input("Introduzca su nombre: ")
+    nombre = nombre.upper()
     return nombre
 
 def pedirSexo():
     sexo = input("Introduzca su sexo (M o F): ")
-    while sexo != "M" or sexo != "F":
+    sexo = sexo.upper()
+    while sexo != "M" and sexo != "F":
         sexo = input("ERROR! Introduzca su sexo (M o F): ")
+        sexo = sexo.upper()
+
     return sexo
 
 def grupo_pertenece(nombre, sexo):
